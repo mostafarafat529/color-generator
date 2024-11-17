@@ -1,0 +1,82 @@
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(60, 137, 137);
+    min-height: 100vh;
+}
+.wrapper{
+    width: 450px;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 10px;
+    
+}
+.wrapper .gradient-box{
+    border-radius: 10px;
+    width: 100%;
+    height: 220px;
+    background: linear-gradient(to left , #977dfe , #6878ff);
+}
+.wrapper .row{
+   display: grid;
+    margin: 20px 0;
+    grid-template-columns: repeat(2 , 1fr);
+    gap: 10px;
+}
+.options p{
+    font-size: 25px;
+    margin: 0 0 10px 20px;
+    
+}
+.options .select-box{
+    border-radius: 10px;
+    border: 1px solid #aaa;
+    
+    
+}
+.select-box select{
+    width: 100%;
+    border: none;
+    outline: none;
+    background-color: none;
+    font-size: 22px;
+}
+.colors p{
+    font-size: 25px;
+   margin-left: 50px;
+}
+.colors .inputs{
+    margin: 0 0 0 30px;
+    width: 100%;
+    
+    
+}
+.colors .inputs input{
+margin: 0 3px;
+}
+.wrapper textarea{
+    resize: none;
+    width: 100%;
+    font-size: 20px;
+    border-radius: 8px;
+    padding: 10px 5px;
+    color: #111;
+}
+.buttons button{
+    padding: 20px;
+    border-radius: 10px;
+    font-size: 22px;
+    color: #ffffff;
+    border: none;
+    cursor: pointer;
+    
+    
+}
+    .buttons .refresh{
+        background-color: #6c757d;
+    }
+    .buttons .copy{
+        background-color: #8a6cff;
+
+    }
